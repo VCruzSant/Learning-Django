@@ -10,22 +10,17 @@
       "source.organizeImports": true
     }
   },
-    "python.languageServer": "Pylance",
-    "python.formatting.autopep8Args": [
-      "--indent-size=4",
-      "--max-line-length=80"
-      // "--ignore=E111"
-    ],
+  "python.languageServer": "Pylance",
+  "editor.rulers": [80, 120],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.analysis.diagnosticSeverityOverrides": {},
+  // "python.defaultInterpreterPath": "./venv/bin/python",
+  "python.analysis.typeCheckingMode": "basic",
+  "cSpell.enabled": false,
+  "editor.fontLigatures": true,
 
-    "python.formatting.provider": "none",
-    "editor.rulers": [80, 120],
-    "python.linting.flake8Enabled": true,
-    "python.linting.mypyEnabled": true,
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true,
-    "python.analysis.diagnosticSeverityOverrides": {},
-    // "python.defaultInterpreterPath": "./venv/bin/python",
-    "python.analysis.typeCheckingMode": "basic",
-    "cSpell.enabled": false,
-    "editor.fontLigatures": true,
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on",
+
 }
